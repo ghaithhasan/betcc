@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>حجز الرحلات</title>
+<link rel="stylesheet" href="./al7jz.css">
+</head>
+<body>
+
+    <ul id="ulhome">
+        <li><a href="./home.html">الصفحة الرئيسة</a></li>
+    </ul>
+
+    <h1 dir="rtl" id="h1al7jz">احجز الأن</h1>
+
+<img height="70px" src="./img/11zon_cropped.png" alt="logo">
+
+<form id="myForm">
+    <label dir="rtl" for="name">الأسم:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label dir="rtl" for="age">العمر:</label>
+    <input type="text" id="age" name="age" required>
+
+    <label dir="rtl" for="gender">الجنس:</label>
+    <select id="gender" name="gender" required>
+        <option value="male">ذكر</option>
+        <option value="female">انثى</option>
+    </select>
+
+    <label dir="rtl" for="phone">رقم الهاتف:</label>
+    <input type="text" id="phone" name="phone" required>
+
+    <label dir="rtl" for="location">البلاد المتاحة للسفر:</label>
+    <select id="location" name="location" required>
+        <option value="Hong Kong">Hong Kong</option>
+        <option value="Macau">Macau</option>
+        <option value="New Zealand">New Zealand</option>
+        <option value="Rome">Rome, Italy</option>
+        <option value="Madrid">Madrid, Spain</option>
+        <option value="Moscow">Moscow, Russia</option>
+    </select>
+
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+    document.getElementById("myForm").addEventListener("submit", function(event){
+        event.preventDefault();
+        var formData = new FormData(this);
+        var jsonData = {};
+        formData.forEach(function(value, key){
+            jsonData[key] = value;
+        });
+        console.log(jsonData); // You can do whatever you want with the JSON data here
+        // For example, you can send it to a server using AJAX
+    });
+</script>
+
+</body>
+</html>

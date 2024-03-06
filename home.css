@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-image: url("https://www.aramcolife.com/-/media/aramco-life/publications/qafilah-weekly/articles/2022/week34/take-a-photo-alps-by-abdulaziz-hammad.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment:fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+/* ستايل الوغو */
+#logo {
+    margin: 5px;
+}
+/* ستايل الوغو */
+
+
+#h1home {
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: solid black 2px;
+        padding: 4px;
+        background-color: #42e625;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Trips {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 15%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+}
+
+#phome1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: black solid 2px;
+    background-color: #42e625;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#al7jz {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 15%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+}
+
+
+#about {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+}
+
+#contact {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 15%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+}
+

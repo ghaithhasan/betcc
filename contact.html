@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بإيريكا</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            margin: 20px;
+        }
+        input[type=text], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        #ulhome {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+    </style>
+</head>
+<body>
+
+    <ul id="ulhome">
+        <li><a href="./home.html">الصفحة الرئيسة</a></li>
+    </ul>
+
+
+    <img dir="ltr" height="70" src="./img/11zon_cropped.png" alt="">
+
+<h2>اتصل بإيريكا</h2>
+
+<form action="/submit_contact_form" method="post">
+    <label for="fname">الاسم الكامل</label>
+    <input type="text" id="fname" name="fullname" placeholder="ادخل اسمك الكامل.." required>
+
+    <label for="email">البريد الإلكتروني</label>
+    <input type="text" id="email" name="email" placeholder="ادخل بريدك الإلكتروني.." required>
+
+    <label for="subject">الموضوع</label>
+    <textarea id="subject" name="subject" placeholder="اكتب رسالتك هنا.." style="height:200px" required></textarea>
+
+    <input type="submit" value="إرسال">
+</form>
+
+</body>
+</html>

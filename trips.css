@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-color: aliceblue;
+    background-size: cover;
+    background-attachment:fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+/* ستايل الوغو */
+#logo {
+    margin: 5px;
+}
+/* ستايل الوغو */
+
+
+#h1trips {
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: solid black 2px;
+        padding: 4px;
+        background-color: #42e625;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#ulhome {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+    font-size: 10px;
+}
+
+#hongkong {
+    position: relative; /* تعيين العنصر الأب بموضع نسبي */
+}
+
+#hongkong img {
+    position: absolute; /* تعيين الصورة بموضع مطلق داخل العنصر الأب */
+    top: 0%; /* تحديد موضع الصورة بالنسبة للأعلى بناءً على 50% من ارتفاع العنصر الأب */
+    left: 30; /* تحديد موضع الصورة بالنسبة لليسار بناءً على 0 بكسل من الجانب الأيسر للعنصر الأب */
+    transform: translate(10%, 80%); /* لتوسيط الصورة بشكل عمودي وأفقي */
+}
+
+
+#mako {
+    position: relative; /* تعيين العنصر الأب بموضع نسبي */
+}
+
+#mako img {
+    position: absolute; /* تعيين الصورة بموضع مطلق داخل العنصر الأب */
+    top: 0%; /* تحديد موضع الصورة بالنسبة للأعلى بناءً على 50% من ارتفاع العنصر الأب */
+    left: 30; /* تحديد موضع الصورة بالنسبة لليسار بناءً على 0 بكسل من الجانب الأيسر للعنصر الأب */
+    transform: translate(135%, 80%); /* لتوسيط الصورة بشكل عمودي وأفقي */
+}
+
+
+#newzlanda {
+    position: relative; /* تعيين العنصر الأب بموضع نسبي */
+}
+
+#newzlanda img {
+    position: absolute; /* تعيين الصورة بموضع مطلق داخل العنصر الأب */
+    top: 0%; /* تحديد موضع الصورة بالنسبة للأعلى بناءً على 50% من ارتفاع العنصر الأب */
+    left: 30; /* تحديد موضع الصورة بالنسبة لليسار بناءً على 0 بكسل من الجانب الأيسر للعنصر الأب */
+    transform: translate(260%, 80%); /* لتوسيط الصورة بشكل عمودي وأفقي */
+}
+
+
+#ulhongkong1 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+#ulmako1 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-380%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+#ulnewzlanda1 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(290%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+#ulhongkong2 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+#ulmako2 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+#ulnewzlanda2 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 60%;
+    left: 113%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+
+
+#ulhongkong3 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+#ulmako3 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+#ulnewzlanda3 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 70%;
+    left: 113%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+
